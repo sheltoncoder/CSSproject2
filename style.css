@@ -6,7 +6,48 @@
 }
 body{
     background-color: rgb(27,27 ,27);
+
+ }
+
+.navbar {
+    background: linear-gradient(to right, #464858, #a6b1b5);
+    display: flex;
+    justify-content: end;
+    marging-top:10px;
+
 }
+li,a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+.nav-links li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-evenly;
+
+}
+.nav-links li a:hover{
+    background-color: lightgrey;
+    color: black;
+    scale: 0.8;
+    
+}
+.art{
+    background-color: #121111;
+    color: rgb(156, 153, 153);
+    text-align: center;
+}
+.con{
+    background-color: #121111;
+    color: rgb(156, 153, 153);
+    text-align: left;
+    margin: 12px;
+}
+
 .container{
     display: flex;
     justify-content:center;
@@ -28,13 +69,19 @@ body{
 }
 .pic-1{
     background-image: url(https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2xhc3NpYyUyMGNhcnMlMjBhcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
 }
 .pic-2{
-    background-image:url(https://images.unsplash.com/photo-1655907827707-8f614ada2392?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGNsYXNzaWMlMjBjYXJzJTIwYXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60)
+    background-image:url(https://images.unsplash.com/photo-1655907827707-8f614ada2392?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGNsYXNzaWMlMjBjYXJzJTIwYXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .pic-3{
-    background-image:url(https://images.unsplash.com/photo-1526996677846-ad66aca3283c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGNsYXNzaWMlMjBjYXJzJTIwYXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60)
+    background-image:url(https://images.unsplash.com/photo-1526996677846-ad66aca3283c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGNsYXNzaWMlMjBjYXJzJTIwYXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .card a {
     background-color: black; 
@@ -56,3 +103,22 @@ body{
     scale: 0.8;
     transition: 0.1ms; 
     }
+     .footer{
+        background-color: black;
+        margin-top: 10px;
+        padding: 5px;
+        text-align: center;
+    }
+.footer a{
+    color:whitesmoke;
+}
+.footer a:hover{
+    color: yellowgreen;
+    scale: 1.1;
+    text-decoration: none;
+}
+#footer1{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
