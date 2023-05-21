@@ -4,6 +4,55 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: rgb(27,27 ,27);
+}
 .container{
     display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
 }
+.card{
+    background-color: whitesmoke;
+    width: 270px;
+    height:400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.classimage{
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size:cover;
+    
+}
+.pic-1{
+    background-image: url(https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2xhc3NpYyUyMGNhcnMlMjBhcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+
+}
+.pic-2{
+    background-image:url(https://images.unsplash.com/photo-1655907827707-8f614ada2392?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGNsYXNzaWMlMjBjYXJzJTIwYXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60)
+}
+.pic-3{
+    background-image:url(https://images.unsplash.com/photo-1526996677846-ad66aca3283c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGNsYXNzaWMlMjBjYXJzJTIwYXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60)
+}
+.card a {
+    background-color: black; 
+    color: rgb(235, 229, 229);
+    padding: 15px ;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 10px;
+}
+.card :hover{
+    background-color: rgb(96, 87, 87);
+    color: white;
+    scale: 1.1;
+}
+.card a:hover{
+    background-color: yellowgreen;
+    color: black;
+    scale: 0.8;
+    transition: 0.1ms; 
+    }
