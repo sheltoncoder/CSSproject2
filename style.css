@@ -92,7 +92,7 @@ li,a{
     margin: 20px 50px;
     border-radius: 10px;
 }
-.card :hover{
+.card:hover{
     background-color: rgb(96, 87, 87);
     color: white;
     scale: 1.1;
